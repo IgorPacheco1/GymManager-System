@@ -8,3 +8,10 @@ login varchar(50) not null,
 senha varchar(50) not null,
 nivel_acesso varchar(20)
 );
+
+create table cliente(
+id_cliente int primary key auto_increment,
+id_usuario int not null,
+nome varchar(50) not null,
+valor decimal(10,2) not null
+);
