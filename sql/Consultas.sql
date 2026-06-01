@@ -9,3 +9,8 @@ select distinct c.nome
 from cliente c
 inner join matricula m on c.id_cliente = m.id_cliente
 inner join treino t on c.id_cliente = t.id_cliente;
+
+-- De onde os dados vêm? (FROM e JOIN)
+-- O que eu quero filtrar antes? (WHERE)
+-- Como eu quero agrupar? (GROUP BY)
+-- O que eu quero ver no final? (SELECT)
