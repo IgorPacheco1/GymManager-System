@@ -14,3 +14,10 @@ inner join treino t on c.id_cliente = t.id_cliente;
 -- O que eu quero filtrar antes? (WHERE)
 -- Como eu quero agrupar? (GROUP BY)
 -- O que eu quero ver no final? (SELECT)
+
+
+select p.nome_plano, count(m.id_matricula) as total_alunos
+from plano p
+join matricula m on p.id_plano = m.id_plano
+group by p.nome_plano
+having count(m.id_matricula) > 5;
