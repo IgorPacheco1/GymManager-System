@@ -1,0 +1,60 @@
+@startuml GymManager-System
+!theme spacelab
+hide circle
+skinparam linetype ortho
+
+entity "USUARIO" as USUARIO {
+  *id_usuario : INT <<PK>>
+  --
+  login : VARCHAR(50)
+  senha : VARCHAR(50)
+  nivel_acesso : VARCHAR(20)
+}
+
+entity "CLIENTE" as CLIENTE {
+  *id_cliente : INT <<PK>>
+  --
+  *id_usuario : INT <<FK>>
+  nome : VARCHAR(100)
+  cpf : VARCHAR(14)
+}
+
+entity "PLANO" as PLANO {
+  *id_plano : INT <<PK>>
+  --
+  nome_plano : VARCHAR(50)
+  valor : DECIMAL(10,2)
+}
+
+entity "MATRICULA" as MATRICULA {
+  *id_matricula : INT <<PK>>
+  --
+  *id_cliente : INT <<FK>>
+  *id_plano : INT <<FK>>
+  data_inicio : DATE
+}
+
+entity "EXERCICIO" as EXERCICIO {
+  *id_exercicio : INT <<PK>>
+  --
+  nome_exercicio : VARCHAR(100)
+  grupo_muscular : VARCHAR(50)
+}
+
+entity "TREINO" as TREINO {
+  *id_treino : INT <<PK>>
+  --
+  *id_cliente : INT <<FK>>
+  *id_exercicio : INT <<FK>>
+  series : INT
+  repeticoes : INT
+}
+
+' Relacionamentos
+USUARIO ||--|| CLIENTE : "autentica"
+CLIENTE  ||--o{ MATRICULA : "possui"
+PLANO    ||--o{ MATRICULA : "vinculado"
+CLIENTE  ||--o{ TREINO : "realiza"
+EXERCICIO ||--o{ TREINO : "composto"
+
+@enduml
