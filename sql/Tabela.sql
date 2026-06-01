@@ -36,5 +36,17 @@ nome_exercicio varchar(100) not null,
 grupo_muscular varchar(50)
 );
 
+create table treino(
+id_treino int primary key auto_increment,
+id_cliente int not null,
+id_exercicio int not null,
+series int,
+repeticoes int,
+carga decimal(5,2),
+foreign key (id_cliente) references cliente(id_cliente),
+foreign key (id_exercicio) references exercicio(id_exercicio)
+);
+
+
 
 
