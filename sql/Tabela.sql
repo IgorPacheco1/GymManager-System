@@ -30,4 +30,11 @@ foreign key (id_cliente) references cliente(id_cliente),
 foreign key (id_plano) references plano(id_plano)
 );
 
+create table exercicio(
+id_exercicio int primary key auto_increment,
+nome_exercicio varchar(100) not null,
+grupo_muscular varchar(50)
+);
+
+
 
