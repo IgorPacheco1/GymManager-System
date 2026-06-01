@@ -22,9 +22,9 @@ O GymManager-System é uma solução voltada para o controle operacional de acad
 - `/src`: Código fonte da aplicação desenvolvida em C#.
 
 ## Integrantes do Grupo
-- Igor Nunes Pacheco Lopes
-- Davi Satler Rodrigues
-- Raphael Angelo Alves
-- Pedro Henrique de Oliveira Ramos
+- [Igor Nunes Pacheco Lopes](https://github.com/IgorPacheco1)
+- [Davi Satler Rodrigues](https://github.com/davisatlerdev)
+- [Raphael Angelo Alves]()
+- [Pedro Henrique de Oliveira Ramos](https://github.com/devpramos)
 ---
 *Trabalho Prático apresentado em 07/06/2026.*
