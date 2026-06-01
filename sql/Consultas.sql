@@ -21,3 +21,27 @@ from plano p
 join matricula m on p.id_plano = m.id_plano
 group by p.nome_plano
 having count(m.id_matricula) > 5;
+
+--De onde vêm os dados? (FROM + JOIN)
+--O que procurar: Identifique todas as tabelas envolvidas e como elas estão "coladas" (as condições de ON).
+--Pergunte-se: "Quais são as tabelas necessárias para buscar essa informação?"
+
+--O que eu quero descartar antes de calcular? (WHERE)
+--O que procurar: Filtros individuais (ex: WHERE cpf = '123').
+--Pergunte-se: "Quais registros eu quero ignorar logo de cara?"
+
+--Como eu quero organizar/resumir? (GROUP BY)
+--O que procurar: O campo que está criando os "grupos" ou "pilhas" de dados.
+--Pergunte-se: "O que eu estou contando ou somando?"
+
+--Existe algum filtro após o resumo? (HAVING)
+--O que procurar: Filtros feitos após o agrupamento (ex: HAVING COUNT > 5).
+--Pergunte-se: "Dos grupos que eu criei, quais eu quero manter?"
+
+--O que eu quero ver no final? (SELECT)
+--O que procurar: As colunas finais ou cálculos (ex: COUNT, SUM, AVG).
+--Pergunte-se: "Qual é a resposta final que o usuário precisa enxergar?"
+
+--Como quero ordenar? (ORDER BY)
+--O que procurar: ASC (crescente) ou DESC (decrescente).
+--Pergunte-se: "Qual é a organização visual mais fácil para ler essa lista?"
