@@ -15,3 +15,8 @@ id_usuario int not null,
 nome varchar(50) not null,
 valor decimal(10,2) not null
 );
+
+create table plano(
+id_plano int primary key auto_increment,
+nome_plano varchar(50) not null,
+valor decimal(10,2) not null);
