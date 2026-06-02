@@ -1,0 +1,6 @@
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.csproj.AssemblyReference.cache
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.AssemblyInfoInputs.cache
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.AssemblyInfo.cs
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.csproj.CoreCompileInputs.cache
+C:\Users\zadsc\OneDrive\Documentos\Projetos\Faculdade\BD-Bancos de Dados\TP_Banco_de_dados\GymManager-System\src\GymManager\obj\Debug\net10.0\GymManager.sourcelink.json

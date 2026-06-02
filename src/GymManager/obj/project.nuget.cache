@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cYCtUrxDsNw=",
+  "dgSpecHash": "BWaLVhxM3T0=",
   "success": true,
-  "projectFilePath": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
+  "projectFilePath": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\zadsc\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\zadsc\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {}
+    "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {
+    "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
+        "projectUniqueName": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
         "projectName": "GymManager",
-        "projectPath": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
+        "projectPath": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
         "packagesPath": "C:\\Users\\zadsc\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\obj\\",
+        "outputPath": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zadsc\\AppData\\Roaming\\NuGet\\NuGet.Config"
