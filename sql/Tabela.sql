@@ -1,3 +1,4 @@
+drop database if not exists GymManager;
 create database if not exists GymManager;
 
 use GymManager;
