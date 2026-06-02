@@ -1,5 +1,5 @@
 ﻿using System;
-using MySql.Data.MySqlCliente;
+using MySql.Data.MySqlClient;
 using GymManager.Data;
 
 class Program
@@ -10,7 +10,7 @@ class Program
 
         try
         {
-            using (MySqlConexao conect = conexao.ObterConexao())
+            using (MySqlConnection conect = conexao.ObterConexao())
             {
                 conect.Open();
                 System.Console.WriteLine("Deu bom");

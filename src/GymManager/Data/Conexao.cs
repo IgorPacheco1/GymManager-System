@@ -1,4 +1,4 @@
-using MySql.Data.MySqlCliente;
+using MySql.Data.MySqlClient;
 
 namespace GymManager.Data
 {
@@ -6,7 +6,7 @@ namespace GymManager.Data
     {
         private string StringDeConexao = "Server=localhost;Database=GymManager;Uid=root;Pwd=67676767";
         
-        public MySqlConexao ObterConexao()
+        public MySqlConnection ObterConexao()
         {
             return new MySqlConexao(StringDeConexao);
         }
