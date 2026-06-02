@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {}
+    "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {
+    "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
+        "projectUniqueName": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
         "projectName": "GymManager",
-        "projectPath": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
+        "projectPath": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\GymManager.csproj",
         "packagesPath": "C:\\Users\\zadsc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\obj\\",
+        "outputPath": "c:\\Users\\zadsc\\OneDrive\\Documentos\\Projetos\\Faculdade\\BD-Bancos de Dados\\TP_Banco_de_dados\\GymManager-System\\src\\GymManager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zadsc\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
