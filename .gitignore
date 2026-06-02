@@ -1,0 +1,11 @@
+# Pastas geradas pelo VS/dotnet
+bin/
+obj/
+.vs/
+.vscode/
+
+# Arquivos de banco de dados locais ou configurações
+*.user
+*.db
+*.tmp
+*.log
