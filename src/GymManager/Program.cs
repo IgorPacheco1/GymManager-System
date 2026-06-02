@@ -19,7 +19,7 @@ class Program
         catch (System.Exception)
         {
 
-            System.Console.WriteLine("Deu ruim" + ex.Message);
+            System.Console.WriteLine("Deu ruim");
         }
     }
 }

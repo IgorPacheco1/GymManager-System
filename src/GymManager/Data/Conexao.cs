@@ -8,7 +8,7 @@ namespace GymManager.Data
         
         public MySqlConnection ObterConexao()
         {
-            return new MySqlConexao(StringDeConexao);
+            return new MySqlConnection(StringDeConexao);
         }
     }
 }
