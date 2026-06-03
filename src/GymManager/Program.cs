@@ -26,7 +26,7 @@ class Program
 
         Cliente novoCliente = new Cliente
         {
-            IdUsuario = 1,
+            IdUsuario = ,
             Nome = "teste",
             Cpf = "00000000011",
             Telefone = "40028922"
