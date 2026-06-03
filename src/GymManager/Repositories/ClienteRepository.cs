@@ -26,5 +26,31 @@ namespace GymManager.Repositories
                 }
             }
         }
+
+        public List<Cliente> ListarTodos()
+        {
+            List<Cliente> lista = new List<Cliente>();
+            using (var conn = _conexao.ObterConexao())
+            {
+                conn.Open();
+                string query = "SELECT id_cliente, id_usuario, nome, cpf, telefone FROM CLIENTE";
+                using (var cmd = new MySqlCommand(query, conn))
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        lista.Add(new Cliente
+                        {
+                            IdCliente = reader.GetInt32("id_cliente"),
+                            IdUsuario = reader.GetInt32("id_usuario"),
+                            Nome = reader.GetString("nome"),
+                            Cpf = reader.GetString("cpf"),
+                            Telefone = reader.GetString("telefone")
+                        });
+                    }
+                }
+            }
+            return lista;
+        }
     }
 }
