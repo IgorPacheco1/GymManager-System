@@ -7,8 +7,8 @@ using GymManager.Repositories;
 class Program
 {
     static void Main(string[] args)
-    {
-        // ConexaoDB conexao = new ConexaoDB();
+    { // TESTE DE CONEXAO
+      // ConexaoDB conexao = new ConexaoDB();
 
         // try
         // {
@@ -24,6 +24,9 @@ class Program
         //     System.Console.WriteLine("Deu ruim");
         // }
 
+
+
+        //TESTE PARA ADIÇÃO AO BD
         // Cliente novoCliente = new Cliente
         // {
         //     IdUsuario = 1,
@@ -44,9 +47,34 @@ class Program
         // }
 
 
+        //TESTE UPDATE 
         try
         {
             ClienteRepository repo = new ClienteRepository();
+
+            Cliente clienteAtualizado = new Cliente
+            {
+                IdCliente = 1,
+                Nome = "João Silva (Atualizado)",
+                Cpf = "12345678901",
+                Telefone = "31999990000"
+            };
+
+            repo.Atualizar(clienteAtualizado);
+            Console.WriteLine("Sucesso: Cliente ID 1 atualizado!");
+        }
+        catch
+        {
+            Console.WriteLine("Erro no Update: ");
+        }
+
+
+
+        //TESTE DE LISTAGEM
+        try
+        {
+            ClienteRepository repo = new ClienteRepository();
+
 
             Console.WriteLine("--- Lista de Clientes ---");
             var clientes = repo.ListarTodos();
@@ -58,7 +86,7 @@ class Program
         }
         catch
         {
-            Console.WriteLine("Erro: ");
+            Console.WriteLine("Erro");
         }
 
     }
