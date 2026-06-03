@@ -52,5 +52,24 @@ namespace GymManager.Repositories
             }
             return lista;
         }
+
+        public void Atualizar(Cliente cliente)
+        {
+            using (var conn = _conexao.ObterConexao())
+            {
+                conn.Open();
+                string query = "UPDATE CLIENTE SET nome = @nome, cpf = @cpf, telefone = @telefone WHERE id_cliente = @id_cliente";
+
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@id_cliente", cliente.IdCliente);
+                    cmd.Parameters.AddWithValue("@nome", cliente.Nome);
+                    cmd.Parameters.AddWithValue("@cpf", cliente.Cpf);
+                    cmd.Parameters.AddWithValue("@telefone", cliente.Telefone);
+
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }
