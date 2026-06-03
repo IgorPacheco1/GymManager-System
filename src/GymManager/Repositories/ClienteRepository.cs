@@ -71,5 +71,20 @@ namespace GymManager.Repositories
                 }
             }
         }
+
+        public void Deletar(int idCliente)
+        {
+            using (var conn = _conexao.ObterConexao())
+            {
+                conn.Open();
+                string query = "DELETE FROM CLIENTE WHERE id_cliente = @id_cliente";
+
+                using (var cmd = new MySqlCommand(query, conn))
+                {
+                    cmd.Parameters.AddWithValue("@id_cliente", idCliente);
+                    cmd.ExecuteNonQuery();
+                }
+            }
+        }
     }
 }
