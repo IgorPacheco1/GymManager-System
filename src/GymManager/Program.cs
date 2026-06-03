@@ -48,24 +48,40 @@ class Program
 
 
         //TESTE UPDATE 
+        // try
+        // {
+        //     ClienteRepository repo = new ClienteRepository();
+
+        //     Cliente clienteAtualizado = new Cliente
+        //     {
+        //         IdCliente = 1,
+        //         Nome = "João Silva (Atualizado)",
+        //         Cpf = "12345678901",
+        //         Telefone = "31999990000"
+        //     };
+
+        //     repo.Atualizar(clienteAtualizado);
+        //     Console.WriteLine("Sucesso: Cliente ID 1 atualizado!");
+        // }
+        // catch
+        // {
+        //     Console.WriteLine("Erro no Update: ");
+        // }
+
+
+        // TESTE DELETE
         try
         {
             ClienteRepository repo = new ClienteRepository();
 
-            Cliente clienteAtualizado = new Cliente
-            {
-                IdCliente = 1,
-                Nome = "João Silva (Atualizado)",
-                Cpf = "12345678901",
-                Telefone = "31999990000"
-            };
+            int idParaRemover = 4;
+            repo.Deletar(idParaRemover);
 
-            repo.Atualizar(clienteAtualizado);
-            Console.WriteLine("Sucesso: Cliente ID 1 atualizado!");
+            Console.WriteLine($"Sucesso: Cliente ID {idParaRemover} removido!");
         }
         catch
         {
-            Console.WriteLine("Erro no Update: ");
+            Console.WriteLine("\n\nErro no Delete: \n\n");
         }
 
 
