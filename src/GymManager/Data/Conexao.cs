@@ -4,7 +4,7 @@ namespace GymManager.Data
 {
     public class ConexaoDB
     {
-        private string StringDeConexao = "Server=localhost;Database=GymManager;Uid=root;Pwd=67";
+        private string StringDeConexao = "Server=localhost;Database=GymManager;Uid=root;Pwd=igor";
         
         public MySqlConnection ObterConexao()
         {
