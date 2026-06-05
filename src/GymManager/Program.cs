@@ -29,9 +29,9 @@ class Program
         //TESTE PARA ADIÇÃO AO BD
         // Cliente novoCliente = new Cliente
         // {
-        //     IdUsuario = 1,
-        //     Nome = "teste",
-        //     Cpf = "00000000011",
+        //     IdUsuario = 3,
+        //     Nome = "CR7",
+        //     Cpf = "777777777",
         //     Telefone = "40028922"
         // };
 
@@ -55,7 +55,7 @@ class Program
         //     Cliente clienteAtualizado = new Cliente
         //     {
         //         IdCliente = 1,
-        //         Nome = "João Silva (Atualizado)",
+        //         Nome = "João Silva TESTE",
         //         Cpf = "12345678901",
         //         Telefone = "31999990000"
         //     };
@@ -70,19 +70,19 @@ class Program
 
 
         // TESTE DELETE
-        try
-        {
-            ClienteRepository repo = new ClienteRepository();
+        // try
+        // {
+        //     ClienteRepository repo = new ClienteRepository();
 
-            int idParaRemover = 4;
-            repo.Deletar(idParaRemover);
+        //     int idParaRemover = 3;
+        //     repo.Deletar(idParaRemover);
 
-            Console.WriteLine($"Sucesso: Cliente ID {idParaRemover} removido!");
-        }
-        catch
-        {
-            Console.WriteLine("\n\nErro no Delete: \n\n");
-        }
+        //     Console.WriteLine($"Sucesso: Cliente ID {idParaRemover} removido!");
+        // }
+        // catch
+        // {
+        //     Console.WriteLine("\n\nErro no Delete: \n\n");
+        // }
 
 
 
